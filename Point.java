@@ -3,6 +3,10 @@ public class Point {
 	private int x;  
 	private int y; 
 	
+	void Point(){
+	this.x=0;
+	this.y=0;
+	}
 	public void setX(int xCoord) {
 	    this.x = xCoord;    
 	  } 
